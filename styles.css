@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.brand-hd {
+  font-family: "Snell Roundhand";
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+}
+
+.section-one {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 1px solid black;
+  border-left: 0;
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+}
+
+.student-sect {
+  width: 25%;
+  border: 1px solid black;
+  border-top: 0;
+  padding: 0 10px;
+}
+
+.corgi-sect {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.css-sect {
+  width: 25%;
+  border-left: 1px solid black;
+  padding: 0 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.sect-two {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.turtle-unit {
+  width: 25%;
+  border-right: 1px solid black;
+  padding: 0 10px;
+}
+
+.list-units {
+  width: 75%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+ul li {
+  color: black;
+  text-decoration: none;
+  font-size: 70px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: "Futura";
+  color: #666;
+}
+
+.l1 {
+  background-color: #ffeaa7;
+}
+.l2 {
+  background-color: #75dddd;
+}
+
+.l3 {
+  background-color: #00b4d8;
+}
+
+.l4 {
+  background-color: #3a506b;
+}
+
+.l5 {
+  background-color: #9381ff;
+}
